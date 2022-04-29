@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: 'Noto Sans JP', sans-serif;
+  background: url("../img/fondo.png");
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #868484;
+}
+
+img {
+  width: 80%;
+  height: auto;
+}
+
+nav, .servicios, .presentacion, .footer-content {
+  width: 80%;
+  margin: auto;
+}
+
+.titulo-servicios, .presentacion {
+  margin-bottom: 10%;
+}
+
+p {
+  font-size: 1.8rem;
+  color: #868484;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.btn, .btn-principal, .btn-secundario {
+  border: none;
+  border-radius: 2px;
+  padding: 0.7em 1.5em;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  -webkit-transition: -webkit-transform 100ms;
+  transition: -webkit-transform 100ms;
+  transition: transform 100ms;
+  transition: transform 100ms, -webkit-transform 100ms;
+}
+
+.btn:hover, .btn-principal:hover, .btn-secundario:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.btn-principal {
+  color: #fff;
+  background-color: #6495ED;
+}
+
+.btn-secundario {
+  background-color: #868484;
+}
+
+.ejemplo {
+  font-size: 55px;
+}
+/*# sourceMappingURL=global.css.map */
